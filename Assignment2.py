@@ -16,7 +16,7 @@ def divide(x, y):
     if y != 0:
         return x / y
     else:
-        raise ValueError("Cannot divide by zero!")         
+        raise ValueError("Cannot divide by zero!")              
 
 def main():
     print("Choose an operation:")
@@ -35,7 +35,7 @@ def main():
         print("Result:", add(n1, n2))
     elif choice == '2':
         print(subtract.__doc__)
-        print("Result:", subtract(n1, n2))
+        print("Result:", subtract(n1, n2))       
     elif choice == '3':
         print(multiply.__doc__)
         print("Result:", multiply(n1, n2))
