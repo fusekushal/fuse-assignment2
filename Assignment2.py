@@ -43,7 +43,7 @@ def main():
         print(divide.__doc__)
         print("Result:", divide(n1, n2))
     else:
-        print("Invalid choice")
+        print("Invalid choice!!")
         
 
 if __name__ == "__main__":
