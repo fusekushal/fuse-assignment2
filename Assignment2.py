@@ -22,7 +22,7 @@ def main():
     print("Choose an operation:")
     print("1. Addition")
     print("2. Subtraction")
-    print("3. Multiplication")
+    print("3. Multiplication")     
     print("4. Division")
 
     choice = input("Enter choice (1/2/3/4): ")
@@ -47,4 +47,4 @@ def main():
         
 
 if __name__ == "__main__":
-    main()
+    main()     
